@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap');
+
+:root {
+    --rose: #ff6347;
+} 
+    
+
+body {    
+    font-size: 16px;   
+    display: block;    
+    align-items: center;
+}
+
+.navigasi {
+    background-color: black;     
+    color: white; 
+    width: 100%;
+    padding: 0;
+    text-transform: uppercase;    
+}
+
+.line {
+    font-weight: lighter;
+}
+
+.navigasi a {
+    text-decoration: none; 
+    color: white;
+    
+}
+.navigasi div ul {    
+    list-style: none;
+    justify-content: space-between;       
+}
+
+.navigasi div ul li a {
+    display: block;
+    align-items: center;
+    float: right;
+    justify-content: space-between;
+}
+
+header {
+    background-image: url('../images/hero-image.jpg');
+    text-align: center;
+    color: white;    
+    background-size: cover;
+    padding: 200px 0;
+}
+
+
+.btn-b {
+    color: var(--rose);
+}
+
+main .wwa {
+    padding: 25px 0;
+}
+
+main div h3 {
+    color: var(--rose);
+    text-transform: uppercase;
+}
+
+main .rose {
+    color: var(--rose);
+}
+
+main div svg {
+    width: 25%;
+}
+
+main div .brd {
+    line-height: 0.8rem;
+    border-bottom: 2px;
+    border-bottom-width: 2px;
+    color: var(--rose);
+    
+}
+
+.foot {
+    background-color: var(--rose);
+    padding-top: 100px;
+    padding-bottom: 25px;
+    
+}
